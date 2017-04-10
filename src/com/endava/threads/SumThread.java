@@ -1,4 +1,4 @@
-/**
+package com.endava.threads; /**
  * Created by lex on 08.04.2017.
  */
 

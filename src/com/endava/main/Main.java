@@ -1,3 +1,8 @@
+package com.endava.main;
+
+import com.endava.threads.CalculateMaxFromThreads;
+import com.endava.threads.ReverseHello;
+
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -26,7 +31,7 @@ public class Main {
         }
 
 
-        System.out.println("----------------ReverseHello----------------");
+        System.out.println("----------------com.endava.threads.ReverseHello----------------");
         ReverseHello thread = new ReverseHello(1);
         thread.start();
         thread.sleep(1000);
